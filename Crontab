@@ -1,6 +1,6 @@
 //每一分钟执行一次脚本
 //crontab配置方法见   http://tool.lu/crontab
-//在终端输入service crond stop可以停止crontab定时任务执行
+//在终端输入service crond stop可以停止crontab定时任务执行  启动service crond start
 //删除定时脚本还可以通过sed指令删除，例如删除定时脚本test2.sh，输入sed -i '/test2.sh/d' /var/spool/cron/root
 //之后通过crontab -l可以查看到已经没有test2.sh在执行了
 
