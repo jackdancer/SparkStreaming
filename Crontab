@@ -1,0 +1,6 @@
+//每一分钟执行一次脚本
+//crontab配置方法见   http://tool.lu/crontab
+
+crontab -e
+
+*/1 * * * * /home/hadoop/data/project/log_generator.sh
